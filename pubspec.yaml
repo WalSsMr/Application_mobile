@@ -1,0 +1,30 @@
+name: bd_test
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mysql_client: ^0.0.27
+  cupertino_icons: ^1.0.6
+  mysql1: ^0.20.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/images/maison1.jpg
+    - assets/images/maison2.jpg
+    - assets/images/appartement1.jpg
+    - assets/images/appartement2.jpg
+    - assets/images/villa1.jpg
+    - assets/images/villa2.jpg
+
+  uses-material-design: true
+  
